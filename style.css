@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+canvas{
+	position: absolute;
+	z-index: -99;
+}
+body{
+	position: relative;
+}
+img{
+	width: 30%;
+}
+@media screen and (max-width: 320px){
+	img{
+		width: 100%
+	}
+}
