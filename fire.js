@@ -19,7 +19,7 @@ setTimeout(setup,1);
 
 function loop(){
 	ctx.globalAlpha = 0.1;
-	ctx.fillStyle = "#000000";
+	ctx.fillStyle = "#000080";
 	ctx.fillRect(0, 0, width, height);
 	ctx.globalAlpha = 1;
 
